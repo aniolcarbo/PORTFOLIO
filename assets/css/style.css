@@ -608,6 +608,17 @@ section {
   color: #3b434a;
 }
 
+.about .languages {
+  padding: 10px 0;
+  margin: 40px 0 6px 0;
+  display: block;
+  font-weight: 400;
+  font-size: 15px;
+  font-family: "Raleway", sans-serif;
+  color: #3b434a;
+}
+
+
 .about .skills-content .progress .skill .val {
   float: right;
   font-style: normal;
