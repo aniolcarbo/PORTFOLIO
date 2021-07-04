@@ -42,9 +42,9 @@
     <nav class="nav-menu d-none d-lg-block">
       <ul>
         <li class="active"><a href="index.html">Home</a></li>
-        <li><a href="#about">About</a></li>
+        <li><a href="#academic">Academic</a></li>
+        <li><a href="#work">Work</a></li>
         <li><a href="#resume">Resume</a></li>
-        <li><a href="#work">Projects</a></li>
         <!-- <li><a href="#portfolio">Portfolio</a></li> -->
         <li><a href="#contact">Contact</a></li>
 
@@ -64,107 +64,148 @@
 
   <main id="main">
 
-    <!-- ======= About Me Section ======= -->
-    <section id="about" class="about">
-      <div class="container">
+    <div class="section-title">
+      <span>Academic projects</span>
+      <h2>Academic projects</h2>
+      <!--<p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>-->
+    </div>
 
-        <div class="section-title">
-          <span>About Me</span>
-          <h2>About Me</h2>
-          <p>I'm currently studying Software Engineering at Universitat Politècnica de Catalunya (UPC)</p>
-        </div>
 
-        <div class="row">
-          <div class="image col-lg-4 d-flex align-items-stretch justify-content-center justify-content-lg-start"></div>
-          <div class="col-lg-8 d-flex flex-column align-items-stretch">
-            <div class="content pl-lg-4 d-flex flex-column justify-content-center">
-              <div class="row">
-                <div class="col-lg-6">
-                  <ul>
-                    <li><i class="icofont-rounded-right"></i> <strong>Name:</strong> Aniol Carbó</li>
-                    <li><i class="icofont-rounded-right"></i> <strong>Website:</strong> www.aniolcarbo.site</li>
-                    <li><i class="icofont-rounded-right"></i> <strong>City:</strong> Barcelona</li>
-                    <li><i class="icofont-rounded-right"></i> <strong>Age:</strong> 20</li>
-                  </ul>
-                </div>
-                <div class="col-lg-6">
-                  <ul>
-                    <li><i class="icofont-rounded-right"></i> <strong>Degree:</strong> Computer Science Major (Software Engineering)</li>
-                    <li><i class="icofont-rounded-right"></i> <strong>Email:</strong> aniolcarbo@gmail.com</li>
-                    <li><i class="icofont-rounded-right"></i> <strong>Freelance:</strong> Available</li>
-                  </ul>
-                </div>
-              </div>
-              <div class="row mt-n4">
-                <div class="col-md-6 mt-5 d-md-flex align-items-md-stretch">
-                  <div class="count-box">
-                    <i class="icofont-simple-smile" style="color: #20b38e;"></i>
-                    <span data-toggle="counter-up">15</span>
-                    <p><strong>Happy Clients</strong> from using my programming services</p>
-                  </div>
-                </div>
-
-                <div class="col-md-6 mt-5 d-md-flex align-items-md-stretch">
-                  <div class="count-box">
-                    <i class="icofont-document-folder" style="color: #8a1ac2;"></i>
-                    <span data-toggle="counter-up">8</span>
-                    <p><strong>Projects</strong> that I've worked on in the last 2 years</p>
-                  </div>
-                </div>
-
-                <div class="col-md-6 mt-5 d-md-flex align-items-md-stretch">
-                  <div class="count-box">
-                    <i class="icofont-clock-time" style="color: #2cbdee;"></i>
-                    <span data-toggle="counter-up">2</span>
-                    <p><strong>Years of experience</strong> since I started the degree</p>
-                  </div>
-                </div>
-
-                <div class="col-md-6 mt-5 d-md-flex align-items-md-stretch">
-                  <div class="count-box">
-                    <i class="icofont-award" style="color: #ffb459;"></i>
-                    <span data-toggle="counter-up">4</span>
-                    <p><strong>Awards</strong> recieved in my career</p>
-                  </div>
-                </div>
-              </div>
-            </div><!-- End .content-->
-
-            <!-- <div class="skills-content pl-lg-4">
-              <div class="progress">
-                <span class="skill">C++ <i class="val">100%</i></span>
-                <div class="progress-bar-wrap">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-              </div>
-
-              <div class="progress">
-                <span class="skill">SQL <i class="val">90%</i></span>
-                <div class="progress-bar-wrap">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-              </div>
-
-              <div class="progress">
-                <span class="skill">DART <i class="val">75%</i></span>
-                <div class="progress-bar-wrap">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-              </div>
-            </div> -->
-
-            <div class="languages">
-            	<p style="margin-left: 25px; font-weight: 700">Technologies and programming languages that I’ve worked with:</p>
-            	<p style="margin-left: 25px;"> C, C++, Java, Javascript (Node.js & Express.js), Dart (Flutter), HTML, CSS, OpenGL, Qt, SQL (PostgreSQL), MIPS, x86, Proteus, OpenMP, ELK Stack, AWS Lambda, AWS Cloudwatch, AWS X-Ray.</p>
+    <section class="container mx-auto my-20" id="academic">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+        <div class="projects-card">
+          <div class="projects-title">
+            <h2 class="text-shadow">MUSEA</h2>
+          </div>
+          <div class="p-2">
+              <p> A mobile app that groups art museums all in one platform, where you can browse through the artworks, add comments, play quizzes, chat with other users, and more! </p>
+              <p> I developed the REST API using Node.js and Express, connected to a MongoDB database </p>
+              <img src="assets/img/iphone.png" width="170" class="card-photo" alt="MUSEA Homepage">
             </div>
-
+          <div class="projects-btn-group">
+              <a class="btn btn-danger btn-block btn-lg" style="color: white; border: 0px; font-weight: 500; background-color: #5b0060; width: 100%;" href="https://github.com/aniol-carbo/musea-api" target="_blank"> Node API </a>
           </div>
         </div>
+  
+        <div class="projects-card">
+          <div class="projects-title">
+            <h2 class="text-shadow"> Hackernews Clone</h2>
+          </div>
+          <div class="p-2">
+              <p> A clone of the popular website 'Hackernews', a discussion website where users can publish their contributions, comment on different topics, upvote posts, etc</p>
+              <p> Two versions: one entirely developed using Ruby on Rails, and the second using Angular.js </p>
+              <img src="assets/img/news.png" width="360" style="margin-top: 13px;" class="card-photo" alt="Hackernews Homepage">
+          </div>
+          <div class="projects-btn-group">
+              <a class="btn btn-danger btn-lg" style="color: white; border: 0px; font-weight: 500; background-color: #5b0060; width: 45%;" href="https://github.com/aniol-carbo/hackernews-ruby" target="_blank"> Ruby </a>
+              <a class="btn btn-danger btn-lg" style="color: white; border: 0px; font-weight: 500; background-color: #5b0060; width: 45%;" href="https://github.com/aniol-carbo/hackernews-angular" target="_blank"> Angular </a>
+          </div>
+        </div>
+  
+        <div class="projects-card">
+          <div class="projects-title">
+            <h2 class="text-shadow"> iKakuro </h2>
+          </div>
+          <div class="p-2">
+              <p> A college project where we developed a desktop application using Java </p>
+              <p style="padding-top: 5px;"> The user can solve Kakuros, create his own boards and save them, achieve points, etc. </p>
+              <img src="assets/img/kakuro.PNG" width="400" style="margin-top: 47px; margin-bottom: 47px;" class="card-photo" alt="Hackernews Homepage">
+          </div>
+          <div class="projects-btn-group">
+            <a class="btn btn-danger btn-block btn-lg" style="color: white; border: 0px; font-weight: 500; background-color: #5b0060; width: 100%;" href="https://github.com/aniol-carbo/iKakuro" target="_blank"> Java Application </a>
+          </div>
+        </div>
+    </section>
 
-      </div>
-    </section><!-- End About Me Section -->
+    <section class="container mx-auto my-20" id="academic2">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+        <div class="projects-card">
+          <div class="projects-title">
+            <h2 class="text-shadow">Instagram Reports</h2>
+          </div>
+          <div class="p-2">
+              <p> A reporting tool for Instagram </p>
+              <p style="padding-top: 5px;"> Check your average post stats (likes, comments, views), mutual user followings, suspicious blocks, and more </p>
+              <img src="assets/img/reports.PNG" width="370" class="card-photo" style="margin-top: 40px; margin-bottom: 40px;" alt="Reports Homepage">
+            </div>
+          <div class="projects-btn-group">
+              <a class="btn btn-danger btn-block btn-lg" style="color: white; border: 0px; font-weight: 500; background-color: #5b0060; width: 100%;" href="https://github.com/aniol-carbo/ig-reports" target="_blank"> Node API + HTML </a>
+          </div>
+        </div>
+  
+        <div class="projects-card">
+          <div class="projects-title">
+            <h2 class="text-shadow"> Coming soon... </h2>
+          </div>
+          <!-- <div class="p-2">
+              <p> A college project where we developed a desktop application using Java </p>
+              <p style="padding-top: 5px;"> The user can solve Kakuros, create his own boards and save them, achieve points, etc. </p>
+              <img src="assets/img/kakuro.PNG" width="380" style="margin-top: 30px; margin-bottom: 30px;" class="card-photo" alt="Hackernews Homepage">
+          </div>
+          <div class="projects-btn-group">
+            <a class="btn btn-danger btn-block btn-lg" style="color: white; border: 0px; font-weight: 500; background-color: #5b0060; width: 100%;" href="https://github.com/aniol-carbo/musea-api" target="_blank"> Node API </a>
+          </div> -->
+        </div>
+  
+        <div class="projects-card">
+          <div class="projects-title">
+            <h2 class="text-shadow">Coming soon ...</h2>
+          </div>
+          <!-- <div class="p-2">
+              <p> Carta 3 </p>
+          </div>
+          <div class="projects-btn-group">
+              <button class="btn btn-danger btn-block btn-lg" style="color: white; border: 0px; font-weight: 500; background-color: rgb(108, 99, 255); width: 100%;"> Show </button>
+          </div> -->
+        </div>
+    </section>
 
-    <hr>
+
+    <div class="section-title">
+      <span>Professional experience</span>
+      <h2>Professional experience</h2>
+      <!--<p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>-->
+    </div>
+
+    <section class="container mx-auto my-20" id="work">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+        <div class="projects-card">
+          <div class="projects-title">
+            <h2 class="text-shadow">Aizon.ai</h2>
+          </div>
+          <div class="p-2">
+              <p>Worked on the last months of the project, which consisted in dynamically analyzing the code structure of a software project in order to automatically extract various metrics that allow its qualification.</p>
+          </div>
+          <div class="projects-btn-group">
+              <a href="https://inlab.fib.upc.edu/en/qaas-ii-qualification-service-i-dynamic-part" target="_blank" class="btn btn-danger btn-block btn-lg" style="color: white; border: 0px; font-weight: 500; background-color: rgb(108, 99, 255); width: 100%;">More Info</a>
+              <!-- <button class="btn btn-danger btn-block btn-lg" style="color: white; border: 0px; font-weight: 500; background-color: rgb(108, 99, 255); width: 100%;" href="https://inlab.fib.upc.edu/en/qaas-ii-qualification-service-i-dynamic-part"> More info </button> -->
+          </div>
+        </div>
+  
+        <div class="projects-card">
+          <div class="projects-title">
+            <h2 class="text-shadow">CVI</h2>
+          </div>
+          <div class="p-2">
+              <p>Developed a web service that allows automating referrals from different organizations within the web manager that the CVI uses on a day-to-day basis. </p>
+          </div>
+          <div class="projects-btn-group">
+            <a href="https://inlab.fib.upc.edu/en/migration-system" target="_blank" class="btn btn-danger btn-block btn-lg" style="color: white; border: 0px; font-weight: 500; background-color: rgb(108, 99, 255); width: 100%;">More Info</a>
+          </div>
+        </div>
+  
+        <div class="projects-card">
+          <div class="projects-title">
+            <h2 class="text-shadow">IMPD</h2>
+          </div>
+          <div class="p-2">
+              <p>Collaborated on the design and development of their new Public Transport Special Service.</p>
+          </div>
+          <div class="projects-btn-group">
+            <a href="https://inlab.fib.upc.edu/en/application-technology-special-transport-atte" target="_blank" class="btn btn-danger btn-block btn-lg" style="color: white; border: 0px; font-weight: 500; background-color: rgb(108, 99, 255); width: 100%;">More Info</a>
+          </div>
+        </div>
+    </section>
 
     <!-- ======= My Resume Section ======= -->
     <section id="resume" class="resume">
@@ -181,11 +222,11 @@
             <h3 class="resume-title">Summary</h3>
             <div class="resume-item">
               <h4>Aniol Carbó</h4>
-              <p>Innovative and curious programmer with 2+ years of learning. I love learning new technologies and I also like teaching other students.</p>
+              <p>Innovative and curious programmer with 3+ years of learning. I love learning new technologies and I also like teaching other students.</p>
               <p>
               <ul>
-                <li>Barcelona, Spain</li>
-                <li>aniolcarbo@gmail.com</li>
+                <li>· Barcelona, Spain</li>
+                <li>· aniolcarbo@gmail.com</li>
               </ul>
               </p>
             </div>
@@ -209,6 +250,16 @@
               <h5>2018 - Present</h5>
               <p><em>Universitat Politècnica de Catalunya, Barcelona</em></p>
               <p>Currently in junior year, studying software engineering.</p>
+            </div>
+            <div class="resume-item">
+              <h4>HTML, CSS, and Javascript for Web Developers</h4>
+              <h5>August 2020</h5>
+              <p><em>Johns Hopkins University</em></p>
+            </div>
+            <div class="resume-item">
+              <h4>DevOps: life cycle of an application</h4>
+              <h5>March 2021</h5>
+              <p><em>Universitat Politècnica de Catalunya</em></p>
             </div>
           </div>
           <div class="col-lg-6">
@@ -255,7 +306,7 @@
 
     </section><!-- End My Resume Section -->
     <hr>
-    <section id="work" class="work">
+    <!-- <section id="work" class="work">
     	<div class="container">
 
         <div class="section-title">
@@ -264,7 +315,6 @@
           <p>Here are some of the projects I've worked during this years.</p>
         </div>
 
-        <!-- Work 1 -->
         <div style="margin-top: 40px; margin-bottom: 40px;" class="row">
 			<div class="col-sm d-flex align-items-stretch mb-5 mb-lg-0">
 				<div class="container">
@@ -281,7 +331,6 @@
 
       	<hr>
 
-      	<!-- Work 2 -->
         <div style="margin-top: 40px; margin-bottom: 40px;" class="row">
         	<div class="col-sm d-flex align-items-stretch mb-5 mb-lg-0">
 				<img src="public/gifnetcat.gif">
@@ -298,7 +347,6 @@
 
       	<hr>
 
-      	<!-- Work 3 -->
         <div style="margin-top: 40px; margin-bottom: 40px;" class="row">
 			<div class="col-sm d-flex align-items-stretch mb-5 mb-lg-0">
 				<div class="container">
@@ -313,7 +361,7 @@
 			</div>
       	</div>
       </div>
-  	</section>
+  	</section> -->
 
   	<hr>
 
@@ -672,7 +720,10 @@
                 <div class="info-box mt-4">
                   <i class="bx bxl-github"></i>
                   <h3>Github</h3>
-                  <a href="https://github.com/aniolcarbo">github.com/aniolcarbo</a>
+                  <div>
+                    <a href="https://github.com/aniolcarbo">github.com/aniolcarbo</a>
+                  </div>
+                  <a href="https://github.com/aniol-carbo">github.com/aniol-carbo</a>
                 </div>
               </div>
             </div>
